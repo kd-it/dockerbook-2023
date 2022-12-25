@@ -49,4 +49,4 @@ jobs:
     - name: List installed extensions
       uses: VaultVulp/action-pipenv@v2.0.1
       with:
-        command: list 
+        command: run pip list

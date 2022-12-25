@@ -1,0 +1,5 @@
+version: '3'
+
+services:
+  sphinx:
+    command: sleep infinity

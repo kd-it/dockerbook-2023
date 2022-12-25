@@ -3,16 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Docker体験(2023年度 アプリケーションサーバー構築1)'s documentation!
+Docker体験(2023年度 アプリケーションサーバー構築I)
 ==============================================================================
 
+この資料は、2023年度ソフトIIIコース前期科目 **アプリケーション/サーバー構築I** の授業向けに作成した資料です。
+
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :caption: 目次:
 
 
-
-Indices and tables
+図表索引(あれば)
 ==================
 
 * :ref:`genindex`

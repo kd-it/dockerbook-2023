@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Docker体験(2023年度 アプリケーションサーバー構築1)'
+project = 'Docker体験(2023年度 アプリケーションサーバー構築I)'
 copyright = '2022, 佐藤 大輔 <densuke@st.kobedenshi.ac.jp>'
 author = '佐藤 大輔 <densuke@st.kobedenshi.ac.jp>'
 

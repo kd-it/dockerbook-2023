@@ -11,9 +11,9 @@ RUN --mount=type=cache,target=/var/lib/apt  --mount=type=cache,target=/var/cache
 	sudo \
 	git \
 	python3-pip \
-	python3; \
-RUN pip install sphinx jupyter-book
-RUN pip install sphinx-autobuild
+	python3
+RUN --mount=type=cache,target=/root/.cache/pip \
+	pip install sphinx jupyter-book sphinx-autobuild
 WORKDIR /workspace
 ARG USER=worker
 ARG USER_UID=1000
@@ -25,4 +25,3 @@ RUN groupadd --gid ${USER_GID} ${USER}; \
 RUN chown ${USER}:${USER} /workspace
 USER worker
 ENV PATH=/home/worker/.local/bin:$PATH
-

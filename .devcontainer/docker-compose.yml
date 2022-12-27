@@ -1,5 +1,9 @@
-version: '3'
+version: '3.7'
 
 services:
   sphinx:
     command: sleep infinity
+    build:
+      args:
+        - USER_UID=501
+        - USER_GID=20

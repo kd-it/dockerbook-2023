@@ -60,3 +60,8 @@ html_theme = 'sphinx_book_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# LaTeX の docclass 設定
+#latex_docclass = {'manual': 'jsbook'}
+pygments_style = 'bw'
+latex_show_urls = 'footnote'

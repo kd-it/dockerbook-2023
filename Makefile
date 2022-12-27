@@ -17,6 +17,13 @@ help:
 autobuild:
 	sphinx-autobuild --open-browser --delay 3 source build
 
+pdf:
+	make latex
+	cd build/latex; \
+		sed -e 's;\\subsubsection\*{脚注};;' -i.bak *.tex
+	cd build/latex; \
+		make
+
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile

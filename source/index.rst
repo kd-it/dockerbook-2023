@@ -12,7 +12,7 @@ Docker体験(2023年度 アプリケーションサーバー構築I)
    :maxdepth: 1
    :caption: 目次:
 
-   build/index
+   build-image/index
 
 図表索引(あれば)
 ==================

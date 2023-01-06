@@ -21,7 +21,7 @@
 別の名前でも可能ですが、いちいちファイル名指定が必要で面倒になるため、原則としてこのファイル名で作ってください。
 
 .. literalinclude:: first/Dockerfile
-    :caption: :file:`first/Dockerfile`
+    :caption: first/Dockerfile
     :language: Dockerfile
 
 イメージの作成
@@ -127,7 +127,7 @@ Docker拡張がインストールされていて、"Docker"ボタンが出てい
 そのためには、 :file:`Dockerfile` の再認識が必要です。
 
 .. literalinclude:: first/Dockerfile
-    :caption: :file:`first/Dockerfile`(再掲)
+    :caption: first/Dockerfile(再掲)
     :language: Dockerfile
     :linenos:
 
@@ -149,12 +149,11 @@ Secure
 バージョンを固定したい場合はタグを指定することで可能です(`alpine:3.17` など) [#ver]_ 。
 
 
-
-
 .. note::
 
     より小さいものという意味では、busyboxを用いたイメージを使うことになりますが、組込レベルの小ささになるため、保守に向かない場合もあります。
     適度に操作可能で小さいという意味では、Alpineは重宝がられております。
+
 
 とりあえずこれを下地にして、そこにアレンジを加えていこうという流れで構成されています。
 
